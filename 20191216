@@ -1,1 +1,7 @@
 SpringCloud主要采用的Eureka，Dubbo主要采用的是zookeeper
+ribbon
+上文只是将服务注册到eureka上，但是consumer还是硬编码调用，前文也有提到这种硬编码方式肯定是不合理的，一来服务上线之后，IP地址肯定是变动的， 再则，采用硬编码的方式是无法实现负载均衡的。
+
+ribbon便是一个用来做负载均衡的组件。
+
+点进spring-cloud-starter-netflix-eureka-client依赖，会发现，这个依赖中已经添加了spring-cloud-starter-netflix-ribbon，故在项目中可以直接使用ribbon，不用重新添加依赖。
