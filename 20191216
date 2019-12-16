@@ -5,3 +5,9 @@ ribbon
 ribbon便是一个用来做负载均衡的组件。
 
 点进spring-cloud-starter-netflix-eureka-client依赖，会发现，这个依赖中已经添加了spring-cloud-starter-netflix-ribbon，故在项目中可以直接使用ribbon，不用重新添加依赖。
+
+
+<实战Java高并发程序设计>
+第一章 介绍 并发的概念，以及并发可能引发的问题
+
+第二章
