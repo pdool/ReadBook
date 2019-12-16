@@ -27,7 +27,10 @@ wait和notify
 
 
 
+Join的本质是让调用线程 wait（）在当前线程对象实例上
+at.join()
 
+main线程 等待  at对象实例上
 
 
 
